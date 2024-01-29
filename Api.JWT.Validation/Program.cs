@@ -25,6 +25,8 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/protected", (ClaimsPrincipal user) => $"Hello {user.Identity?.Name}, protected").RequireAuthorization();
+app.MapGet("/protectedwithscope", (ClaimsPrincipal user) => $"Hello {user.Identity?.Name}, protected with scope")
+    .RequireAuthorization(p => p.RequireClaim("scope", "myapi:admin"));
 app.MapGet("/auth/{user}/{pass}", (string user, string pass) =>
 {
     if (user != "Miguel" || pass != "MAS") return "Invalid User";
@@ -35,7 +37,8 @@ app.MapGet("/auth/{user}/{pass}", (string user, string pass) =>
     {
         Subject = new ClaimsIdentity(new Claim[]
         {
-            new Claim(ClaimTypes.Name, user)
+            new Claim(ClaimTypes.Name, user),
+            new Claim("Scope", "myapi:admin")
         }),
         Expires = DateTime.UtcNow.AddMinutes(10),
         SigningCredentials =
