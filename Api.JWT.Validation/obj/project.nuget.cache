@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Whzb8UG6UIj0MLckOSBDb40zgw6vXaosxvsKMwJjvH0CSkOSl/LPHZKaPmC8Sdez3w2jFYF15UsFV5CBQVH2A==",
+  "success": true,
+  "projectFilePath": "/Users/miguelvargas/RiderProjects/JWT_study/Api.JWT.Validation/Api.JWT.Validation.csproj",
+  "expectedPackageFiles": [
+    "/Users/miguelvargas/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.15/microsoft.aspnetcore.authentication.jwtbearer.7.0.15.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.identitymodel.abstractions/6.35.0/microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.35.0/microsoft.identitymodel.jsonwebtokens.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.identitymodel.logging/6.35.0/microsoft.identitymodel.logging.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.identitymodel.protocols/6.35.0/microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.35.0/microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.identitymodel.tokens/6.35.0/microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/system.identitymodel.tokens.jwt/6.35.0/system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
+    "/Users/miguelvargas/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}
