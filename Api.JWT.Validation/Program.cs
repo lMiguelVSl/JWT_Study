@@ -24,7 +24,7 @@ builder.Services.AddAuthentication("Bearer").AddJwtBearer(opt =>
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
-app.MapGet("/protected", () => "Hello World, protected").RequireAuthorization();
+app.MapGet("/protected", (ClaimsPrincipal user) => $"Hello {user.Identity?.Name}, protected").RequireAuthorization();
 app.MapGet("/auth/{user}/{pass}", (string user, string pass) =>
 {
     if (user != "Miguel" || pass != "MAS") return "Invalid User";
